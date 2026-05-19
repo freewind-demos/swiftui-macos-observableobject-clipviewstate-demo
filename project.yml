@@ -21,3 +21,11 @@ targets:
         CODE_SIGN_STYLE: Manual
         DEVELOPMENT_TEAM: ""
         ENABLE_HARDENED_RUNTIME: NO
+    productName: ClipViewStateDemo
+schemes:
+  ClipViewStateDemo:
+    build:
+      targets:
+        ClipViewStateDemo: all
+    run:
+      config: Debug
